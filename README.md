@@ -61,7 +61,7 @@ WHERE lpep_pickup_datetime >= '2019-10-01'
 
 
 # Question 4. Longest trip for each day
-// Answer: 515.89
+// Answer: 2019-10-31 (515.89)
 SELECT 
     DATE(lpep_pickup_datetime) AS pickup_day,
     MAX(trip_distance) AS longest_trip_distance
