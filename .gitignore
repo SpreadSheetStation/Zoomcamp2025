@@ -1,1 +1,4 @@
 ny_taxi_postgres_data/
+
+.DS_store
+*.DS_store
