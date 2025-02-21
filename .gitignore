@@ -1,4 +1,13 @@
 ny_taxi_postgres_data/
+<<<<<<< HEAD
+# Default .gitignore content added by dbt Cloud# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+target/
+dbt_packages/
+logs/
+# end dbt Cloud content
+=======
 
 .DS_store
 *.DS_store
+>>>>>>> 9da6e9f92b919c56ca95436f9d0e896be01a75b7
