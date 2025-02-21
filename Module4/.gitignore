@@ -56,3 +56,6 @@ config/*.yml
 
 # Encoded environment file containing sensitive information
 .env_encoded
+
+.0 - first attempt prereq - manual
+.1 - second attempt prereq - dlt

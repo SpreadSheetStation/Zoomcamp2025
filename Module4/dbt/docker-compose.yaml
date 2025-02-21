@@ -1,0 +1,13 @@
+# version: '3'
+services:
+  dbt-bq-dtc:
+    build:
+      context: .
+      target: dbt-bigquery
+    image: dbt/bigquery
+    volumes:
+      - .:/usr/app
+      - ~/.dbt/:/root/.dbt/
+      - /Users/neogami/.google/credentials:/.google/credentials
+    network_mode: host
+    # command: bash -c "pip install pytz && dbt init"
